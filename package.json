@@ -1,0 +1,34 @@
+{
+  "name": "cbr-currency",
+  "version": "1.0.0",
+  "description": "Get currency rates from Central Bank of Russia",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolomiichenko/cbr-currency.git"
+  },
+  "keywords": [
+    "rates",
+    "currency",
+    "russia",
+    "bank",
+    "central",
+    "cbr"
+  ],
+  "author": {
+    "name": "Andrii Kolomiichenko",
+    "email": "bboywilld@gmail.com",
+    "url": "http://github.com/kolomiichenko"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolomiichenko/cbr-currency/issues"
+  },
+  "homepage": "https://github.com/kolomiichenko/cbr-currency#readme",
+  "dependencies": {
+    "iconv": "^2.1.11",
+    "request": "^2.65.0",
+    "xml2js": "^0.4.15"
+  },
+  "readmeFilename": "README.md"
+}
