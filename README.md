@@ -6,7 +6,9 @@ Get currency rates from Central Bank of Russia
 
 ```javascript
 var cbr = require('cbr-currency');
-cbr.init(); // first argument is frequently in seconds (default: 3600)
+cbr.init(600); // first argument is frequently in seconds (default: 3600)
+
+cbr.updateCurrency(); // force update
 
 console.log(cbr.currency);
 ```
